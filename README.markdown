@@ -16,15 +16,17 @@ Require it in your files:
         require 'placefinder'
 
         placefinder = Placefinder::Base.new(:api_key => your_api_key)
-        params = {:q => "Central Park, NY, US"}
-        placefinder.get(params)
+        placefinder.get :q => "Central Park, NY, US", :flags => 'J'
 
 You are encourage to check the documentation to see the params of the API:
     http://developer.yahoo.com/geo/placefinder/guide/requests.html
 
 Super easy! isn't ?
 
-NOTE: The api_key is not a required field, you can start hitting their api without it.
+NOTES:
+       1- The api_key is not a required field, you can start hitting their api without it.
+       2- If you specify the format in the :flags they will be ignore, a hash is always returned.
+
 
 Author
 ======
