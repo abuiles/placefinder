@@ -4,7 +4,7 @@ require 'placefinder/version'
 Gem::Specification.new do |spec|
   spec.authors     = [ "Adolfo Builes" ]
   spec.date        = Time.now.strftime('%Y-%m-%d')
-  spec.description = "Ruby gem wrapper for placefinder's API."
+  spec.description = "The simplest ruby wrapper for placefinder's API."
   spec.email       = "builes.adolfo@googlemail.com"
   spec.has_rdoc    = false
   spec.homepage    = "http://github.com/abuiles/placefinder"
@@ -17,4 +17,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "rspec"
   spec.add_development_dependency("pamela")
+  spec.add_dependency("httparty", ">= 0.7.3")
 end
