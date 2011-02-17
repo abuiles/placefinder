@@ -27,6 +27,10 @@ NOTES:
        1- The api_key is not a required field, you can start hitting their api without it.
        2- If you specify the format in the :flags they will be ignore, a hash is always returned.
 
+Important
+=========
+Yahoo! PlaceFinder as geolocation service really sucks and I would recommend to use Google, you can checkout Geokit which makes interactions with Google really easy.
+       https://github.com/andre/geokit-gem
 
 Author
 ======
