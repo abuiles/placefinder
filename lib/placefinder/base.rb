@@ -11,7 +11,7 @@ module Placefinder
     end
 
     def get(params = {})
-      params.merge!({:appid => @api_key}) if @apy_key
+      params.merge!({:appid => @api_key}) if @api_key
       response = self.class.get('', :query => params)
       response.parsed_response
     end
