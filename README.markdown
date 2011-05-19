@@ -25,6 +25,7 @@ You are encourage to check the documentation to see the params of the API:
 Super easy! isn't ?
 
 NOTES:
+
        1- The api_key is not a required field, you can start hitting their api without it.
        2- If you specify the format in the :flags they will be ignore, a hash is always returned.
 
