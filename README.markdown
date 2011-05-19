@@ -9,6 +9,7 @@ Synopsis
 ========
 
 Install from RubyGems
+
         gem install placefinder
 
 Require it in your files:
