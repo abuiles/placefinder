@@ -17,5 +17,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "rspec"
   spec.add_development_dependency("pamela")
-  spec.add_dependency("httparty", ">= 0.7.3")
+  spec.add_runtime_dependency("httparty", ">= 0.7.3")
 end
