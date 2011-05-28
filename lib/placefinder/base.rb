@@ -14,5 +14,4 @@ module Placefinder
       response.parsed_response
     end
   end
-
 end
